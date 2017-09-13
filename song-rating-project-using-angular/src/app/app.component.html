@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<div class="card" style="padding-left:20px;padding-bottom:20px; border: 1px solid green;background-color:lightgray;">
+
+<ng-container *ngFor="let song of songDetails">
+<p style="color:white;">Title: {{song.title}}</p>
+<p>Artist: {{song.artist}}</p>
+<p>Rating: {{song.rating}}</p>
+<p>Total rated: {{song.ratingCount}} times</p>
+
+<input type="text" value="0" id="rating" name="rating" />
+<button class="btn btn-success">Rate this song</button>
+
+----------------
+</ng-container>
+
+</div>
+
+<ul>
+  <li>
+    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  
+</ul>
+
